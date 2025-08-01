@@ -15,13 +15,14 @@ const usageMessage = "" +
 Application used for get absolute from relative path.
 
 Options (only one required)
+    - r: run
     - info: info about application
 
 Flags (all required):
 	-f <path>: relative or absolute path
 
 Examples:
-	./go-releaser -f /var/lib/rpm/rpmdb.sqlite
+	./go-releaser r -f /var/lib/rpm/rpmdb.sqlite
 	./go-releaser info`
 
 const (
