@@ -50,6 +50,7 @@ var (
 
 var (
 	allowedFirstArgs = map[string]struct{}{
+		"r":    {},
 		"info": {},
 	}
 )
